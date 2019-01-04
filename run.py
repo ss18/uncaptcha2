@@ -90,7 +90,7 @@ def checkCaptcha():
 		print ("Successfully completed captcha.")
 		output = 1
 	else:
-		print("An error occured.")
+		print("An error occurred.")
 		output = 0
 	pyautogui.moveTo(CLOSE_LOCATION)
 	pyautogui.click()
